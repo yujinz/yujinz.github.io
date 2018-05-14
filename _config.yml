@@ -3,17 +3,17 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
+title: Yujin Zhang
 subtitle:
-description:
+description: Yujin's personal page
 keywords:
-author: John Doe
+author: Yujin Zhang
 language: en
 timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
+url: http://yujinz.me/
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
