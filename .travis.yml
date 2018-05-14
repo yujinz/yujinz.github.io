@@ -1,0 +1,25 @@
+language: node_js
+
+node_js:
+  - '6'
+
+branches:
+  only:
+    - source
+
+before_install:
+  - npm install
+
+before_script:
+  - git clone --branch master https://github.com/yujinz/yujinz.github.io public
+
+script:
+  - npm run build
+
+after_success:
+  - cd public
+  - git config user.name "Yujin Bot"
+  - git config user.email "yujinz@umich.edu"
+  - git add --all .
+  - git commit -m "Travis CI Auto Builder"
+  - git push https://$DEPLOY_REPO@github.com/yujinz/yujinz.github.io.git master
