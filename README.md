@@ -5,6 +5,4 @@
 
 ### Reference:
 
-[CI for Hexo](https://www.jianshu.com/p/5e74046e7a0f)
-
 Theme: [Tranquilpeak](https://github.com/LouisBarranqueiro/hexo-theme-tranquilpeak)
