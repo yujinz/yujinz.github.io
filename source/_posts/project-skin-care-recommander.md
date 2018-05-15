@@ -4,7 +4,7 @@ date: 2018-05-11 23:59:59
 link: https://github.com/yujinz/skin-care-recommender
 top: 35
 categories:
-- project
+- Projects
 thumbnailImagePosition: left
 thumbnailImage: https://upload.wikimedia.org/wikipedia/en/thumb/5/59/Under_construction_svg.svg/1024px-Under_construction_svg.svg.png
 ---

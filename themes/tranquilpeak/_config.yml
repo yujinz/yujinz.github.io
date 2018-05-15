@@ -34,33 +34,35 @@ sidebar:
             title: global.home
             url: /
             icon: home
-        categories:
-            title: global.categories
-            url: /all-categories
-            icon: bookmark
-        tags:
-            title: global.tags
-            url: /all-tags
-            icon: tags
-        archives:
-            title: global.archives
-            url: /all-archives
-            icon: archive
-        search:
-            title: global.search
-            url: /#search
-            icon: search
-            # `open-algolia-search` classes are used to open algolia search modal
-            class: open-algolia-search
-        about:
-            title: global.about
-            url: /#about
-            icon: question
+        projects:
+            title: Projects
+            url: /#projects
+            icon: code
+        # categories:
+        #     title: global.categories
+        #     url: /all-categories
+        #     icon: bookmark
+        # tags:
+        #     title: global.tags
+        #     url: /all-tags
+        #     icon: tags
+        # archives:
+        #     title: global.archives
+        #     url: /all-archives
+        #     icon: archive
+        # about:
+        #     title: global.about
+        #     url: /assets/resume.pdf
+        #     icon: question
     author_links:
-        # github:
-        #     title: global.github
-        #     url: https://github.com/
-        #     icon: github
+        resume:
+            title: Resume
+            url: /assets/resume.pdf
+            icon: archive
+        github:
+            title: global.github
+            url: https://github.com/yujinz/
+            icon: github
         # stack_overflow:
         #     title: global.stack_overflow
         #     url: http://stackoverflow.com/users
@@ -77,19 +79,19 @@ sidebar:
         #     title: global.google_plus
         #     url: https://plus.google.com/
         #     icon: google-plus
-        # linked_in:
-        #     title: global.linkedin
-        #     url: https://www.linkedin.com/profile/
-        #     icon: linkedin
-        # mail:
-        #     title: global.mail
-        #     url: mailto:
-        #     icon: envelope-o
-    rss:
-        rss:
-            title: global.rss
-            url: /atom.xml
-            icon: rss
+        linked_in:
+            title: global.linkedin
+            url: https://www.linkedin.com/in/yujinz/
+            icon: linkedin
+        mail:
+            title: global.mail
+            url: mailto://yujinz2@illinois.edu
+            icon: envelope-o
+    # rss:
+    #     rss:
+    #         title: global.rss
+    #         url: /atom.xml
+    #         icon: rss
 
 
 # --------------------
@@ -153,13 +155,13 @@ author:
 sidebar_behavior: 1
 # Hide sidebar on all article page to let article take full width to improve reading, and
 # enjoy wide images and cover images. (true: enable, false: disable)
-clear_reading: true
+clear_reading: false
 # Display thumbnail image of each post on index pages (false: disabled, true: enabled)
 thumbnail_image: true
 # Display thumbnail image at the right of title in index pages (`right`, `left` or `bottom`)
 # Set this value to `right` if you have old posts to keep the old style on them
 # and define `thumbnailImagePosition` on a post to overwrite this setting
-thumbnail_image_position: right
+thumbnail_image_position: false
 # Automatically select the cover image or the first photo from the gallery of a post if
 # there is no thumbnail image as the thumbnail image
 # Set this value to `true` if you have old posts that use the cover image or the first photo as the thumbnail image
@@ -239,16 +241,16 @@ fb_app_id:
 # global:
 #     share_on_foo_bar: "Share on Foo Bar"
 # ```
-sharing_options:
-    facebook:
-        icon: "fa-facebook-official"
-        url: "https://www.facebook.com/sharer/sharer.php?u={{post.permalink}}"
-    twitter:
-        icon: "fa-twitter"
-        url: "https://twitter.com/intent/tweet?text={{post.permalink}}"
-    google_plus:
-        icon: "fa-google-plus"
-        url: "https://plus.google.com/share?url={{post.permalink}}"
+# sharing_options:
+    # facebook:
+    #     icon: "fa-facebook-official"
+    #     url: "https://www.facebook.com/sharer/sharer.php?u={{post.permalink}}"
+    # twitter:
+    #     icon: "fa-twitter"
+    #     url: "https://twitter.com/intent/tweet?text={{post.permalink}}"
+    # google_plus:
+    #     icon: "fa-google-plus"
+    #     url: "https://plus.google.com/share?url={{post.permalink}}"
     # Asian social networks
     # weibo:
     #     title: "Weibo"
