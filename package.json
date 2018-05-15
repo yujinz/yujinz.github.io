@@ -20,6 +20,7 @@
     "jsdom": "^11.10.0"
   },
   "scripts": {
-    "build": "hexo clean && hexo generate"
+    "build": "hexo clean && hexo generate",
+    "serve": "hexo generate && hexo server"
   }
 }
