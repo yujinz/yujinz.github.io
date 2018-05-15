@@ -12,4 +12,4 @@ thumbnailImage: https://upload.wikimedia.org/wikipedia/en/thumb/5/59/Under_const
 A chat website with threaded messaging feature designed by myself. Working in progress.  
 <!-- more -->
 
-A project for me to learn React. The threaded messaging feature was designed in April 2017. The implementataion started from January 2018.
+A project for me to learn React. The threaded messaging feature was designed in April 2017. The implementataion started in January 2018.
