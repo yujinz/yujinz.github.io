@@ -1,7 +1,7 @@
 ---
 title: Tower of Babylon
 date: 2017-03-23 23:59:59
-link: https://github.com/yujinz/starts
+link: https://github.com/yujinz/TowerOfBabylon
 top: 43
 categories:
 - Projects
