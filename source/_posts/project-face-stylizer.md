@@ -1,6 +1,8 @@
 ---
+---
+---
 title: Artistic Face Stylizer
-date: 2018-05-05 23:59:59
+date: "2018-05-05T23:59:59+00:00"T+00:00
 link: https://github.com/yujinz/face-stylizer
 top: 40
 categories:

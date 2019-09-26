@@ -1,6 +1,8 @@
 ---
+---
+---
 title: Publication
-date: 2017-04-04 01:00:00
+date: "2017-04-04T01:00:00+00:00"T+00:00
 top: 20
 ---
 S.W. Lee, **Y. Zhang**, I. Wong, Y. Yang, S.D. O'Keefe, W.S. Lasecki. [SketchExpress: Remixing Animations for More Effective Crowd-Powered Prototyping of Interactive Interfaces](http://web.eecs.umich.edu/~wlasecki/pubs/SketchExpress_UIST2017.pdf). In Proceedings of the ACM Symposium on User Interface Software and Technology (UIST 2017). Quebec City, Canada
