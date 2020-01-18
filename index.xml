@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Yujin Zhang</title>
+    <link>http://yujinz.me/</link>
+    <description>Recent content on Yujin Zhang</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 14 May 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://yujinz.me/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Hello :)</title>
+      <link>http://yujinz.me/posts/self-introduction/</link>
+      <pubDate>Sat, 05 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://yujinz.me/posts/self-introduction/</guid>
+      <description>My name is Yujin Zhang (pronounced You-jean Jaang). I&amp;rsquo;m a master student in CS at UIUC. I received my BS degrees in CS from University of Michigan and in ECE from Shanghai Jiao Tong University.
+I&amp;rsquo;m interested in understanding how computer systems work, especially how they improve reliability and efficiency. I enjoy building applications that can benefit people around me, and hopefully bringing a little bit of happiness to their lives.</description>
+    </item>
+    
+    <item>
+      <title>Rope Chat</title>
+      <link>http://yujinz.me/posts/project-rope-chat/</link>
+      <pubDate>Mon, 14 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://yujinz.me/posts/project-rope-chat/</guid>
+      <description>&lt;p&gt;A chat website with threaded messaging feature designed by myself. Working in progress.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>STARTS Offline Mode</title>
+      <link>http://yujinz.me/posts/project-starts/</link>
+      <pubDate>Tue, 05 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://yujinz.me/posts/project-starts/</guid>
+      <description>An optimization of STARTS (STAtic Regression Test Selection) Maven plugin, which helps running only the impacted tests since last build. Reduced the time required to perform dependency analysis phase by 70% by running it concurrently with the test execution phase. Implemented the idea about offline mode in this paper at ASE 2017.
+A semester-long project of CS 527 Advanced Topics in Software Engineering at UIUC.</description>
+    </item>
+    
+    <item>
+      <title>Tower of Babylon</title>
+      <link>http://yujinz.me/posts/project-tower-of-babylon/</link>
+      <pubDate>Thu, 23 Mar 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://yujinz.me/posts/project-tower-of-babylon/</guid>
+      <description>A 3D platform game where the hero climbs a four-sided tower while dogding and attacking enemies. His weapon can switch between a hammer and a propeller, helping him attack as well as jump and climb. The weapon is controlled purely by rotating a joystick of the Xbox controller, creating a gameplay experience without button pressing. Gameplay Video</description>
+    </item>
+    
+    <item>
+      <title>Artistic Face Stylizer</title>
+      <link>http://yujinz.me/posts/project-face-stylizer/</link>
+      <pubDate>Sat, 05 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://yujinz.me/posts/project-face-stylizer/</guid>
+      <description>A face stylizer that puts an artistic mask generated from a portrait painting on the face in a photo. It detects facial keypoints in both the painting and the photo, warps the painting onto the photo according to the keypoints, and blends them with different weights on different areas.
+Inspired by this paper at SIGGRAPH 2017. Simplified the input from stream videos to static photos.
+Collaborated with Yukang Shen as the final project of CS 543 Computer Vision at UIUC.</description>
+    </item>
+    
+    <item>
+      <title>Skin Care Recommander</title>
+      <link>http://yujinz.me/posts/project-skin-care-recommander/</link>
+      <pubDate>Fri, 11 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://yujinz.me/posts/project-skin-care-recommander/</guid>
+      <description>A search engine back-end for recommanding skin care products on Amazon according to different effects and product types. It&amp;rsquo;s currently a little bit complicate to use. I plan to simplify the usage and hopefully deploy it, so that you could easily try it out. Collaborated with Shu Song and Siyu Bian as the final project of CS410 Text Information Systems at UIUC.</description>
+    </item>
+    
+    <item>
+      <title>Publication</title>
+      <link>http://yujinz.me/posts/publication/</link>
+      <pubDate>Tue, 04 Apr 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://yujinz.me/posts/publication/</guid>
+      <description>S.W. Lee, Y. Zhang, I. Wong, Y. Yang, S.D. O&amp;rsquo;Keefe, W.S. Lasecki. SketchExpress: Remixing Animations for More Effective Crowd-Powered Prototyping of Interactive Interfaces. In Proceedings of the ACM Symposium on User Interface Software and Technology (UIST 2017). Quebec City, Canada
+SketchExpress is built upon Apparition, a crowdsourced UI prototyping web application. As described in the title of the paper, it enables recording and remixing animations on a online canvas to prototype interactive interfaces.</description>
+    </item>
+    
+  </channel>
+</rss>
