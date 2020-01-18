@@ -10,7 +10,7 @@ thumbnailImage: https://lh3.googleusercontent.com/evLgJWLKol5WyP8Bws4tqIVGK08bxa
 ---
 
 A 3D platform game where the hero climbs a four-sided tower while dogding and attacking enemies. His weapon can switch between a hammer and a propeller, helping him attack as well as jump and climb. The weapon is controlled purely by rotating a joystick of the Xbox controller, creating a gameplay experience without button pressing.
-<!-- more -->
+<!--more-->
 
 [Gameplay Video](https://www.youtube.com/watch?v=ej4pOaGyOsw)
 

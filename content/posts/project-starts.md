@@ -10,7 +10,7 @@ thumbnailImage: https://lh3.googleusercontent.com/ACa8uri9WAH9szHmNTQmX-GJb1-pOK
 ---
 
 An optimization of STARTS (STAtic Regression Test Selection) Maven plugin, which helps running only the impacted tests since last build. Reduced the time required to perform dependency analysis phase by 70% by running it concurrently with the test execution phase.
-<!-- more -->
+<!--more-->
 
 ![starts offline workflow](https://lh3.googleusercontent.com/iPvJCKC6MGpAsM4-O0_2yNIxUcHnhVYI4GiHrGacqCBn5kmrq4dNX_J0x6Vbti_gZSFfJ5h93lkpd4pQCe2QoqSNwQ-RB1gMQvT9WJWE947uS-s-o2vKeglHOWmA83pri0_H_go58VmOfaDPrjwza7rQDK11hhnvwK8W98qzSgWVc9WiTpLCg89ewvBkUrqId3-JPUD72C2axzg6esouq2wj07WbsPpfKjSY0oN0NvlZuJohwobnyPvNx_9tJjv-iph9xJ8lfoqhMlf3XnIOL4RW-CGzLHiRRjcRr8cJveAjw9UFrXX0S1wCu7vyqMs0Q4bG8odBr3YefcHd5MSJVch4oaL3ckiWVhBhEgZfMLjc_6dRXhOEsluXrKzfDm5eODTQVfOqonDAl0_g5R2AHZtawHBv2X_HjAedCVouD2gcWpoJOQBpjCiMISkwIKpl-VJMkSy2dINUUWQU47jiuimvkUSCWiZHnyTSBYqEEEMKpxSVvC4zjD6xEJTdHLhiFhf2ny8_k7l5x1vm5xz2I2vbA4kZNdMedHOYA5hN2gmZTsVfewWoDQ3sqW7soQ93LCySvOGaEDAGwuHHpTEETK4-mIyK6aLLff-It0A=w740-h309-no)
 
