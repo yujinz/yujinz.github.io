@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    
+    <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="generator" content="Hugo 0.58.3 with theme Tranquilpeak 0.4.7-BETA">
+<meta name="author" content="Yujin Zhang">
+<meta name="keywords" content="">
+<meta name="description" content="A face stylizer that puts an artistic mask generated from a portrait painting on the face in a photo. It detects facial keypoints in both the painting and the photo, warps the painting onto the photo according to the keypoints, and blends them with different weights on different areas.
+Inspired by this paper at SIGGRAPH 2017. Simplified the input from stream videos to static photos.
+Collaborated with Yukang Shen as the final project of CS 543 Computer Vision at UIUC.">
+
+
+<meta property="og:description" content="A face stylizer that puts an artistic mask generated from a portrait painting on the face in a photo. It detects facial keypoints in both the painting and the photo, warps the painting onto the photo according to the keypoints, and blends them with different weights on different areas.
+Inspired by this paper at SIGGRAPH 2017. Simplified the input from stream videos to static photos.
+Collaborated with Yukang Shen as the final project of CS 543 Computer Vision at UIUC.">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Artistic Face Stylizer">
+<meta name="twitter:title" content="Artistic Face Stylizer">
+<meta property="og:url" content="http://yujinz.me/posts/project-face-stylizer/">
+<meta property="twitter:url" content="http://yujinz.me/posts/project-face-stylizer/">
+<meta property="og:site_name" content="Yujin Zhang">
+<meta property="og:description" content="A face stylizer that puts an artistic mask generated from a portrait painting on the face in a photo. It detects facial keypoints in both the painting and the photo, warps the painting onto the photo according to the keypoints, and blends them with different weights on different areas.
+Inspired by this paper at SIGGRAPH 2017. Simplified the input from stream videos to static photos.
+Collaborated with Yukang Shen as the final project of CS 543 Computer Vision at UIUC.">
+<meta name="twitter:description" content="A face stylizer that puts an artistic mask generated from a portrait painting on the face in a photo. It detects facial keypoints in both the painting and the photo, warps the painting onto the photo according to the keypoints, and blends them with different weights on different areas.
+Inspired by this paper at SIGGRAPH 2017. Simplified the input from stream videos to static photos.
+Collaborated with Yukang Shen as the final project of CS 543 Computer Vision at UIUC.">
+<meta property="og:locale" content="en-us">
+
+  
+    <meta property="article:published_time" content="2018-05-05T00:00:00">
+  
+  
+    <meta property="article:modified_time" content="2018-05-05T00:00:00">
+  
+  
+  
+    
+      <meta property="article:section" content="Projects">
+    
+  
+  
+
+
+<meta name="twitter:card" content="summary">
+
+
+
+
+
+
+
+  <meta property="og:image" content="https://lh3.googleusercontent.com/piS-UvqgX7pkmB8YssS8j9U6m1-dAd9KumbTx5Fg3wJLnxfFT72wC_jlGem2njx_7D6yZnJcC1CrkuNrMc8yhb-mi_hlW6wLYyoW25bQO1fY2bmlcGHW2bcOOOYQ7HocCP_TyStBUiYhD7ehZMJDKkTpFStYmWf1Pdpnl1MuMyz6NPZJuDJzcC5wB7Pq8Sp099PbWwPZKF9TDHuXnAIXl02rGCtK8lcAEYO3ucv1PhT_Mswbcnc-M1USaPOOJyQgyxJtT-2m0cbibubeYAG_HLgaagII8r_FH3tRHRj95nPMrcA4PQh__bM5Ik724WviTXSL06_WYJyHO0nxURWxkFFkNh2zgyYivSGnDaQvTrnX8S0b-dqsT6Za3QIgMpWsTsZoHhcYE8cHZecRXfRcqdTeDGH5FiFil4OAgl33emHW2dHXgQB3WoAYPidAK7Wgd-tOBdNfrDZ5TJgJ_7Hpn5aVwvf6BFRp7O2mljHKFqx5ztMX0vmjWsdFgD2eQ1G-UP-ykbFyn4c3-YAG0LKdeu9pFg5qnCXsoMZoDRAWXfTOYSq0i9qRyjWi27uDlTTszGvQW0-pGx73rOCzXoITrXZywSJiXhlgFZnJ9VEqVksQez4RmUrsOlMVV-nzaQv0ugpMHwjBHtMuQI1S-ufIqbhJ_Cb8bm8s=s540-no">
+  <meta property="twitter:image" content="https://lh3.googleusercontent.com/piS-UvqgX7pkmB8YssS8j9U6m1-dAd9KumbTx5Fg3wJLnxfFT72wC_jlGem2njx_7D6yZnJcC1CrkuNrMc8yhb-mi_hlW6wLYyoW25bQO1fY2bmlcGHW2bcOOOYQ7HocCP_TyStBUiYhD7ehZMJDKkTpFStYmWf1Pdpnl1MuMyz6NPZJuDJzcC5wB7Pq8Sp099PbWwPZKF9TDHuXnAIXl02rGCtK8lcAEYO3ucv1PhT_Mswbcnc-M1USaPOOJyQgyxJtT-2m0cbibubeYAG_HLgaagII8r_FH3tRHRj95nPMrcA4PQh__bM5Ik724WviTXSL06_WYJyHO0nxURWxkFFkNh2zgyYivSGnDaQvTrnX8S0b-dqsT6Za3QIgMpWsTsZoHhcYE8cHZecRXfRcqdTeDGH5FiFil4OAgl33emHW2dHXgQB3WoAYPidAK7Wgd-tOBdNfrDZ5TJgJ_7Hpn5aVwvf6BFRp7O2mljHKFqx5ztMX0vmjWsdFgD2eQ1G-UP-ykbFyn4c3-YAG0LKdeu9pFg5qnCXsoMZoDRAWXfTOYSq0i9qRyjWi27uDlTTszGvQW0-pGx73rOCzXoITrXZywSJiXhlgFZnJ9VEqVksQez4RmUrsOlMVV-nzaQv0ugpMHwjBHtMuQI1S-ufIqbhJ_Cb8bm8s=s540-no">
+
+
+
+
+
+  <meta property="og:image" content="https://doc-0k-a4-docs.googleusercontent.com/docs/securesc/17dejiifd54b9akvm5km4mqaj452gv0p/l2k5c4t2pbaah1ldepvj15stf2mpb2kv/1579327200000/03436784165724871261/03436784165724871261/17MeAXc_P4ebG7hpKfGcFsu87nAqyoMpK?e=view&authuser=0">
+  <meta property="twitter:image" content="https://doc-0k-a4-docs.googleusercontent.com/docs/securesc/17dejiifd54b9akvm5km4mqaj452gv0p/l2k5c4t2pbaah1ldepvj15stf2mpb2kv/1579327200000/03436784165724871261/03436784165724871261/17MeAXc_P4ebG7hpKfGcFsu87nAqyoMpK?e=view&authuser=0">
+
+
+    <title>Artistic Face Stylizer</title>
+
+    <link rel="icon" href="http://yujinz.me/favicon.png">
+    
+
+    
+
+    <link rel="canonical" href="http://yujinz.me/posts/project-face-stylizer/">
+
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha256-eZrrJcwDc/3uDhsdt61sL2oOBY362qM3lon1gyExkL0=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.4/jquery.fancybox.min.css" integrity="sha256-vuXZ9LGmmwtjqFX1F+EKin1ThZMub58gKULUyf0qECk=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.4/helpers/jquery.fancybox-thumbs.min.css" integrity="sha256-SEa4XYAHihTcEP1f5gARTB2K26Uk8PsndQYHQC1f4jU=" crossorigin="anonymous" />
+    
+    
+    <link rel="stylesheet" href="http://yujinz.me/css/style-twzjdbqhmnnacqs0pwwdzcdbt8yhv8giawvjqjmyfoqnvazl0dalmnhdkvp7.min.css" />
+    
+    
+
+    
+      
+    
+    
+  </head>
+
+  <body>
+    <div id="blog">
+      <header id="header" data-behavior="1">
+  <i id="btn-open-sidebar" class="fa fa-lg fa-bars"></i>
+  <div class="header-title">
+    <a class="header-title-link" href="http://yujinz.me/">Yujin Zhang</a>
+  </div>
+  
+</header>
+
+      <nav id="sidebar" data-behavior="1">
+  <div class="sidebar-container">
+    
+      <div class="sidebar-profile">
+        <a href="http://yujinz.me/#about">
+          <img class="sidebar-profile-picture" src="https://doc-0k-a4-docs.googleusercontent.com/docs/securesc/17dejiifd54b9akvm5km4mqaj452gv0p/l2k5c4t2pbaah1ldepvj15stf2mpb2kv/1579327200000/03436784165724871261/03436784165724871261/17MeAXc_P4ebG7hpKfGcFsu87nAqyoMpK?e=view&amp;authuser=0" alt="Author&#39;s picture" />
+        </a>
+        <h4 class="sidebar-profile-name">Yujin Zhang</h4>
+        
+      </div>
+    
+    <ul class="sidebar-buttons">
+      
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="http://yujinz.me/">
+    
+      <i class="sidebar-button-icon fa fa-lg fa-home"></i>
+      
+      <span class="sidebar-button-desc">Home</span>
+    </a>
+  </li>
+
+
+    </ul>
+    <ul class="sidebar-buttons">
+      
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://github.com/yujinz/" target="_blank" rel="noopener">
+    
+      <i class="sidebar-button-icon fa fa-lg fa-github"></i>
+      
+      <span class="sidebar-button-desc">GitHub</span>
+    </a>
+  </li>
+
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://www.linkedin.com/in/yujinz/" target="_blank" rel="noopener">
+    
+      <i class="sidebar-button-icon fa fa-lg fa-linkedin"></i>
+      
+      <span class="sidebar-button-desc">LinkedIn</span>
+    </a>
+  </li>
+
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="mailto://yujinzh18@gmail.com" target="_blank" rel="noopener">
+    
+      <i class="sidebar-button-icon fa fa-lg fa-envelope-o"></i>
+      
+      <span class="sidebar-button-desc">Mail</span>
+    </a>
+  </li>
+
+
+    </ul>
+    <ul class="sidebar-buttons">
+      
+
+    </ul>
+  </div>
+</nav>
+
+      
+
+      <div id="main" data-behavior="1"
+        class="
+               hasCoverMetaIn
+               ">
+        <article class="post" itemscope itemType="http://schema.org/BlogPosting">
+          
+          
+            <div class="post-header main-content-wrap text-left">
+  
+    <h1 itemprop="headline"> 
+      <a class="link" href="https://github.com/yujinz/face-stylizer" target="_blank" itemprop="url">
+        Artistic Face Stylizer
+      </a>
+    </h1>
+  
+  
+  <div class="postShorten-meta post-meta">
+    
+      <time itemprop="datePublished" datetime="2018-05-05T00:00:00Z">
+        
+  May 5, 2018
+
+      </time>
+    
+    
+  
+  
+    <span>in</span>
+    
+      <a class="category-link" href="http://yujinz.me/categories/projects">Projects</a>
+    
+  
+
+  </div>
+
+</div>
+          
+          <div class="post-content markdown" itemprop="articleBody">
+            <div class="main-content-wrap">
+              <p>A face stylizer that puts an artistic mask generated from a portrait painting on the face in a photo. It detects facial keypoints in both the painting and the photo, warps the painting onto the photo according to the keypoints, and blends them with different weights on different areas.<br />
+<!-- more --></p>
+
+<p><img src="https://lh3.googleusercontent.com/KKVgCAmuKaKoM25gazrU052NLO9K_IIafS2i-i7zf6YJ6LRGZbdgZe0vehgfqJ8ybyu6p_oe5uS8-1v0mjL_uPZSSiTS3pU9rUkftuZ7M-W5ZNvVzj1-LO7ZwLBDlI9iRKtuUVkUsqHkFuwPvE0fF2OQx4HsjVe4dRtWQj3GkeqrwYQVdoQLCc4_DBYCU3grd1wuahSm3nlyGa2fY1StNb82eVvrXfHI7VDmiyj3zKHUsucQ3YGaYzNscEC1PUjUNC9chs_TFYhmoa9MfkX4LTA8nR7DJA5Y7POe3KlqqTQFvxRTLZNQRklL-KzqvZBvQYe4v6A1hljfr_liOQtNGygY5n5a8afa-7bEiFPXtfj-jAsPN9iUHArSLg04IooRVnRGTGQ2gR4hja9uuLYYwntpLDQL27muOKUoyOdWxBPXOoFYyod9NU-FPhbyzz3dEk94em9LyWyulnpRWbZyMYezga9KDpgRnLUEIj6FJ65FkiGnUwjnhi6F8N71kKvpNfLBL730iaoWF89Bt4ndGLCbqDrw1gB5wR9OQpopFObnOv4WCyl8Umz49pdO81zF2gwLbCYq-RAZtclXqMtYq07wC0g55YfRlJYYvjAotoYjd4jnJUE1350NRg1eotF_FyFEVcDSBN0p_c0C0Rvl0y5hf1q9iCZX=w644-h451-no" alt="face-stylizer sample output" /></p>
+
+<p>Inspired by <a href="http://dcgi.fel.cvut.cz/home/sykorad/facestyle.html">this paper at SIGGRAPH 2017</a>. Simplified the input from stream videos to static photos.</p>
+
+<p>Collaborated with <a href="https://github.com/JohnsonSYK">Yukang Shen</a> as the final project of <a href="http://slazebni.cs.illinois.edu/spring18/">CS 543 Computer Vision</a> at UIUC.</p>
+
+              
+            </div>
+          </div>
+          <div id="post-footer" class="post-footer main-content-wrap">
+            
+              
+            
+            <div class="post-actions-wrap">
+  
+      <nav >
+        <ul class="post-actions post-action-nav">
+          
+            <li class="post-action">
+              
+                <a class="post-action-btn btn btn--default tooltip--top" href="http://yujinz.me/posts/project-tower-of-babylon/" data-tooltip="Tower of Babylon">
+              
+                  <i class="fa fa-angle-left"></i>
+                  <span class="hide-xs hide-sm text-small icon-ml">NEXT</span>
+                </a>
+            </li>
+            <li class="post-action">
+              
+                <a class="post-action-btn btn btn--default tooltip--top" href="http://yujinz.me/posts/project-skin-care-recommander/" data-tooltip="Skin Care Recommander">
+              
+                  <span class="hide-xs hide-sm text-small icon-mr">PREVIOUS</span>
+                  <i class="fa fa-angle-right"></i>
+                </a>
+            </li>
+          
+        </ul>
+      </nav>
+    <ul class="post-actions post-action-share" >
+      
+        <li class="post-action hide-lg hide-md hide-sm">
+          <a class="post-action-btn btn btn--default btn-open-shareoptions" href="#btn-open-shareoptions">
+            <i class="fa fa-share-alt"></i>
+          </a>
+        </li>
+        
+      
+      
+        <li class="post-action">
+          <a class="post-action-btn btn btn--default" href="#disqus_thread">
+            <i class="fa fa-comment-o"></i>
+          </a>
+        </li>
+      
+      <li class="post-action">
+        
+          <a class="post-action-btn btn btn--default" href="#">
+        
+          <i class="fa fa-list"></i>
+        </a>
+      </li>
+    </ul>
+  
+</div>
+
+            
+              
+                <div id="disqus_thread">
+  <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+              
+            
+          </div>
+        </article>
+        <footer id="footer" class="main-content-wrap">
+  <span class="copyrights">
+    &copy; 2020 Yujin Zhang. All Rights Reserved
+  </span>
+</footer>
+
+      </div>
+      <div id="bottom-bar" class="post-bottom-bar" data-behavior="1">
+        <div class="post-actions-wrap">
+  
+      <nav >
+        <ul class="post-actions post-action-nav">
+          
+            <li class="post-action">
+              
+                <a class="post-action-btn btn btn--default tooltip--top" href="http://yujinz.me/posts/project-tower-of-babylon/" data-tooltip="Tower of Babylon">
+              
+                  <i class="fa fa-angle-left"></i>
+                  <span class="hide-xs hide-sm text-small icon-ml">NEXT</span>
+                </a>
+            </li>
+            <li class="post-action">
+              
+                <a class="post-action-btn btn btn--default tooltip--top" href="http://yujinz.me/posts/project-skin-care-recommander/" data-tooltip="Skin Care Recommander">
+              
+                  <span class="hide-xs hide-sm text-small icon-mr">PREVIOUS</span>
+                  <i class="fa fa-angle-right"></i>
+                </a>
+            </li>
+          
+        </ul>
+      </nav>
+    <ul class="post-actions post-action-share" >
+      
+        <li class="post-action hide-lg hide-md hide-sm">
+          <a class="post-action-btn btn btn--default btn-open-shareoptions" href="#btn-open-shareoptions">
+            <i class="fa fa-share-alt"></i>
+          </a>
+        </li>
+        
+      
+      
+        <li class="post-action">
+          <a class="post-action-btn btn btn--default" href="#disqus_thread">
+            <i class="fa fa-comment-o"></i>
+          </a>
+        </li>
+      
+      <li class="post-action">
+        
+          <a class="post-action-btn btn btn--default" href="#">
+        
+          <i class="fa fa-list"></i>
+        </a>
+      </li>
+    </ul>
+  
+</div>
+
+      </div>
+      <div id="share-options-bar" class="share-options-bar" data-behavior="1">
+  <i id="btn-close-shareoptions" class="fa fa-close"></i>
+  <ul class="share-options">
+    
+  </ul>
+</div>
+<div id="share-options-mask" class="share-options-mask"></div>
+    </div>
+    
+    <div id="about">
+  <div id="about-card">
+    <div id="about-btn-close">
+      <i class="fa fa-remove"></i>
+    </div>
+    
+      <img id="about-card-picture" src="https://doc-0k-a4-docs.googleusercontent.com/docs/securesc/17dejiifd54b9akvm5km4mqaj452gv0p/l2k5c4t2pbaah1ldepvj15stf2mpb2kv/1579327200000/03436784165724871261/03436784165724871261/17MeAXc_P4ebG7hpKfGcFsu87nAqyoMpK?e=view&amp;authuser=0" alt="Author&#39;s picture" />
+    
+    <h4 id="about-card-name">Yujin Zhang</h4>
+    
+    
+    
+  </div>
+</div>
+
+    
+
+    
+  
+    
+      <div id="cover" style="background-image:url('http://yujinz.me/images/cover.jpg');"></div>
+    
+  
+
+
+    
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.7/js/jquery.fancybox.min.js" integrity="sha256-GEAnjcTqVP+vBp3SSc8bEDQqvWAZMiHyUSIorrWwH50=" crossorigin="anonymous"></script>
+
+
+<script src="http://yujinz.me/js/script-pcw6v3xilnxydl1vddzazdverrnn9ctynvnxgwho987mfyqkuylcb1nlt.min.js"></script>
+
+
+<script lang="javascript">
+window.onload = updateMinWidth;
+window.onresize = updateMinWidth;
+document.getElementById("sidebar").addEventListener("transitionend", updateMinWidth);
+function updateMinWidth() {
+  var sidebar = document.getElementById("sidebar");
+  var main = document.getElementById("main");
+  main.style.minWidth = "";
+  var w1 = getComputedStyle(main).getPropertyValue("min-width");
+  var w2 = getComputedStyle(sidebar).getPropertyValue("width");
+  var w3 = getComputedStyle(sidebar).getPropertyValue("left");
+  main.style.minWidth = `calc(${w1} - ${w2} - ${w3})`;
+}
+</script>
+
+
+  
+    
+      <script>
+        var disqus_config = function () {
+          this.page.url = 'http:\/\/yujinz.me\/posts\/project-face-stylizer\/';
+          
+            this.page.identifier = '\/posts\/project-face-stylizer\/'
+          
+        };
+        (function() {
+          
+          
+          if (window.location.hostname == "localhost") {
+            return;
+          }
+          var d = document, s = d.createElement('script');
+          var disqus_shortname = 'hugo-tranquilpeak-theme';
+          s.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+
+          s.setAttribute('data-timestamp', +new Date());
+          (d.head || d.body).appendChild(s);
+        })();
+      </script>
+    
+  
+
+
+
+
+    
+  </body>
+</html>
+
