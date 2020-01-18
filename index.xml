@@ -17,8 +17,17 @@
       <pubDate>Sat, 05 May 2018 00:00:00 +0000</pubDate>
       
       <guid>http://yujinz.me/posts/self-introduction/</guid>
-      <description>My name is Yujin Zhang (pronounced You-jean Jaang). I&amp;rsquo;m a master student in CS at UIUC. I received my BS degrees in CS from University of Michigan and in ECE from Shanghai Jiao Tong University.
-I&amp;rsquo;m interested in understanding how computer systems work, especially how they improve reliability and efficiency. I enjoy building applications that can benefit people around me, and hopefully bringing a little bit of happiness to their lives.</description>
+      <description>&lt;p&gt;My name is Yujin Zhang (pronounced You-jean Jaang). I&amp;rsquo;m a backend software engineer in San Francisco. I went to University of Illinois at Urbana-Champaign, University of Michigan Ann Arbor, and Shanghai Jiao Tong University.&lt;/p&gt;
+
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;I like going to parks, biking to work, organizing spaces, reading fictions, and playing &lt;a href=&#34;https://www.nintendo.com/games/detail/ring-fit-adventure-switch/&#34;&gt;Ring Fit Adventure&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;For projects below, click titles to read more. Click thumbnails or the &amp;ldquo;Go to website&amp;rdquo; to jump to github repos.&lt;/p&gt;
+
+&lt;h3 id=&#34;a-name-projects-a&#34;&gt;&lt;a name=&#34;projects&#34;&gt;&lt;/a&gt;&lt;/h3&gt;</description>
     </item>
     
     <item>
@@ -36,8 +45,7 @@ I&amp;rsquo;m interested in understanding how computer systems work, especially 
       <pubDate>Tue, 05 Dec 2017 00:00:00 +0000</pubDate>
       
       <guid>http://yujinz.me/posts/project-starts/</guid>
-      <description>An optimization of STARTS (STAtic Regression Test Selection) Maven plugin, which helps running only the impacted tests since last build. Reduced the time required to perform dependency analysis phase by 70% by running it concurrently with the test execution phase. Implemented the idea about offline mode in this paper at ASE 2017.
-A semester-long project of CS 527 Advanced Topics in Software Engineering at UIUC.</description>
+      <description>&lt;p&gt;An optimization of STARTS (STAtic Regression Test Selection) Maven plugin, which helps running only the impacted tests since last build. Reduced the time required to perform dependency analysis phase by 70% by running it concurrently with the test execution phase.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -46,7 +54,7 @@ A semester-long project of CS 527 Advanced Topics in Software Engineering at UIU
       <pubDate>Thu, 23 Mar 2017 00:00:00 +0000</pubDate>
       
       <guid>http://yujinz.me/posts/project-tower-of-babylon/</guid>
-      <description>A 3D platform game where the hero climbs a four-sided tower while dogding and attacking enemies. His weapon can switch between a hammer and a propeller, helping him attack as well as jump and climb. The weapon is controlled purely by rotating a joystick of the Xbox controller, creating a gameplay experience without button pressing. Gameplay Video</description>
+      <description>&lt;p&gt;A 3D platform game where the hero climbs a four-sided tower while dogding and attacking enemies. His weapon can switch between a hammer and a propeller, helping him attack as well as jump and climb. The weapon is controlled purely by rotating a joystick of the Xbox controller, creating a gameplay experience without button pressing.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -55,9 +63,7 @@ A semester-long project of CS 527 Advanced Topics in Software Engineering at UIU
       <pubDate>Sat, 05 May 2018 00:00:00 +0000</pubDate>
       
       <guid>http://yujinz.me/posts/project-face-stylizer/</guid>
-      <description>A face stylizer that puts an artistic mask generated from a portrait painting on the face in a photo. It detects facial keypoints in both the painting and the photo, warps the painting onto the photo according to the keypoints, and blends them with different weights on different areas.
-Inspired by this paper at SIGGRAPH 2017. Simplified the input from stream videos to static photos.
-Collaborated with Yukang Shen as the final project of CS 543 Computer Vision at UIUC.</description>
+      <description>&lt;p&gt;A face stylizer that puts an artistic mask generated from a portrait painting on the face in a photo. It detects facial keypoints in both the painting and the photo, warps the painting onto the photo according to the keypoints, and blends them with different weights on different areas.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -66,7 +72,7 @@ Collaborated with Yukang Shen as the final project of CS 543 Computer Vision at 
       <pubDate>Fri, 11 May 2018 00:00:00 +0000</pubDate>
       
       <guid>http://yujinz.me/posts/project-skin-care-recommander/</guid>
-      <description>A search engine back-end for recommanding skin care products on Amazon according to different effects and product types. It&amp;rsquo;s currently a little bit complicate to use. I plan to simplify the usage and hopefully deploy it, so that you could easily try it out. Collaborated with Shu Song and Siyu Bian as the final project of CS410 Text Information Systems at UIUC.</description>
+      <description>&lt;p&gt;A search engine back-end for recommanding skin care products on Amazon according to different effects and product types. It&amp;rsquo;s currently a little bit complicate to use. I plan to simplify the usage and hopefully deploy it, so that you could easily try it out.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -75,8 +81,7 @@ Collaborated with Yukang Shen as the final project of CS 543 Computer Vision at 
       <pubDate>Tue, 04 Apr 2017 00:00:00 +0000</pubDate>
       
       <guid>http://yujinz.me/posts/publication/</guid>
-      <description>S.W. Lee, Y. Zhang, I. Wong, Y. Yang, S.D. O&amp;rsquo;Keefe, W.S. Lasecki. SketchExpress: Remixing Animations for More Effective Crowd-Powered Prototyping of Interactive Interfaces. In Proceedings of the ACM Symposium on User Interface Software and Technology (UIST 2017). Quebec City, Canada
-SketchExpress is built upon Apparition, a crowdsourced UI prototyping web application. As described in the title of the paper, it enables recording and remixing animations on a online canvas to prototype interactive interfaces.</description>
+      <description>&lt;p&gt;S.W. Lee, &lt;strong&gt;Y. Zhang&lt;/strong&gt;, I. Wong, Y. Yang, S.D. O&amp;rsquo;Keefe, W.S. Lasecki. &lt;a href=&#34;http://web.eecs.umich.edu/~wlasecki/pubs/SketchExpress_UIST2017.pdf&#34;&gt;SketchExpress: Remixing Animations for More Effective Crowd-Powered Prototyping of Interactive Interfaces&lt;/a&gt;. In Proceedings of the ACM Symposium on User Interface Software and Technology (UIST 2017). Quebec City, Canada&lt;/p&gt;</description>
     </item>
     
   </channel>
