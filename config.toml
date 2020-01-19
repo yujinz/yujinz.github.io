@@ -18,7 +18,7 @@ canonifyurls = true
 
 [author]
   name = "Yujin Zhang"
-  picture = "https://doc-0k-a4-docs.googleusercontent.com/docs/securesc/17dejiifd54b9akvm5km4mqaj452gv0p/l2k5c4t2pbaah1ldepvj15stf2mpb2kv/1579327200000/03436784165724871261/03436784165724871261/17MeAXc_P4ebG7hpKfGcFsu87nAqyoMpK?e=view&authuser=0"
+  picture = "https://lh3.googleusercontent.com/d/17MeAXc_P4ebG7hpKfGcFsu87nAqyoMpK=w800-h800?authuser=0"
 
 # Menu Configuration
 [[menu.main]]
@@ -27,12 +27,12 @@ canonifyurls = true
   name = "Home"
   pre = "<i class=\"sidebar-button-icon fa fa-lg fa-home\"></i>"
   url = "/"
-# [[menu.main]]
-#   weight = 2
-#   identifier = "categories"
-#   name = "Categories"
-#   pre = "<i class=\"sidebar-button-icon fa fa-lg fa-bookmark\"></i>"
-#   url = "/categories"
+[[menu.main]]
+  weight = 2
+  identifier = "categories"
+  name = "Categories"
+  pre = "<i class=\"sidebar-button-icon fa fa-lg fa-bookmark\"></i>"
+  url = "/categories"
 # [[menu.main]]
 #   weight = 3
 #   identifier = "tags"
@@ -89,7 +89,7 @@ canonifyurls = true
   sidebarBehavior = 1
   imageGallery = true
   hierarchicalCategories = true
-  description = "Hugo tranquilpeak theme demo"
+  description = "Yujin Zhang"
   thumbnailImage = true
   thumbnailImagePosition = "bottom"
   autoThumbnailImage = true
