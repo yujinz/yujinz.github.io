@@ -25,8 +25,9 @@ hugo
 echo "Updating gh-pages branch"
 cd public && git add --all && git commit -m "Publishing to gh-pages (publish.sh)"
 
-echo "merge to publish"
-echo "git checkout master"
+echo "Merging to master"
+git checkout master
+git merge gh-pages
 
 #echo "Pushing to github"
 #git push --all
