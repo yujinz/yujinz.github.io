@@ -19,6 +19,7 @@ canonifyurls = true
 [author]
   name = "Yujin Zhang"
   picture = "https://lh3.googleusercontent.com/d/17MeAXc_P4ebG7hpKfGcFsu87nAqyoMpK=w800-h800?authuser=0"
+  job = "[Resume](/resume_github.pdf)"
 
 # Menu Configuration
 [[menu.main]]
@@ -51,12 +52,6 @@ canonifyurls = true
 #   name = "About"
 #   pre = "<i class=\"sidebar-button-icon fa fa-lg fa-question\"></i>"
 #   url = "/#about"
-# [[menu.links]]
-#   weight = 1
-#   identifier = "resume"
-#   name = "Resume"
-#   pre = "<i class=\"sidebar-button-icon fa fa-lg fa-archive\"></i>"
-#   url = "/resume.pdf"
 [[menu.links]]
   weight = 2
   identifier = "github"
@@ -75,6 +70,12 @@ canonifyurls = true
   name = "Mail"
   pre = "<i class=\"sidebar-button-icon fa fa-lg fa-envelope-o\"></i>"
   url = "mailto://yujinzh18@gmail.com"
+# [[menu.links]]
+#   weight = 5
+#   identifier = "resume"
+#   name = "Resume"
+#   pre = "<i class=\"sidebar-button-icon fa fa-lg fa-archive\"></i>"
+#   url = "/resume_github.pdf"
 
 # [[menu.misc]]
 #   weight = 1
