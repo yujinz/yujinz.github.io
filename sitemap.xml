@@ -1,20 +1,10 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
     <loc>http://yujinz.me/posts/self-introduction/</loc>
-    <lastmod>2018-05-05T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://yujinz.me/posts/project-rope-chat/</loc>
-    <lastmod>2018-05-14T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://yujinz.me/posts/project-starts/</loc>
-    <lastmod>2017-12-05T00:00:00+00:00</lastmod>
+    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -23,8 +13,18 @@
   </url>
   
   <url>
+    <loc>http://yujinz.me/posts/project-starts/</loc>
+    <lastmod>2017-12-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://yujinz.me/posts/project-face-stylizer/</loc>
     <lastmod>2018-05-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://yujinz.me/posts/project-rope-chat/</loc>
+    <lastmod>2018-05-14T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -38,22 +38,22 @@
   </url>
   
   <url>
+    <loc>http://yujinz.me/posts/</loc>
+    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://yujinz.me/</loc>
+    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://yujinz.me/categories/</loc>
     <lastmod>2018-05-14T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://yujinz.me/posts/</loc>
-    <lastmod>2018-05-14T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>http://yujinz.me/categories/projects/</loc>
-    <lastmod>2018-05-14T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://yujinz.me/</loc>
     <lastmod>2018-05-14T00:00:00+00:00</lastmod>
   </url>
   

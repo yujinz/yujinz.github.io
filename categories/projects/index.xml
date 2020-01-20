@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Projects on Yujin Zhang</title>
+    <title>projects on Yujin Zhang</title>
     <link>http://yujinz.me/categories/projects/</link>
-    <description>Recent content in Projects on Yujin Zhang</description>
+    <description>Recent content in projects on Yujin Zhang</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 14 May 2018 00:00:00 +0000</lastBuildDate>
@@ -12,12 +12,12 @@
     
     
     <item>
-      <title>Rope Chat</title>
-      <link>http://yujinz.me/posts/project-rope-chat/</link>
-      <pubDate>Mon, 14 May 2018 00:00:00 +0000</pubDate>
+      <title>Tower of Babylon</title>
+      <link>http://yujinz.me/posts/project-tower-of-babylon/</link>
+      <pubDate>Thu, 23 Mar 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://yujinz.me/posts/project-rope-chat/</guid>
-      <description>&lt;p&gt;A chat website with threaded messaging feature designed by myself. Working in progress.&lt;/p&gt;</description>
+      <guid>http://yujinz.me/posts/project-tower-of-babylon/</guid>
+      <description>&lt;p&gt;A 3D platform game where the hero climbs a four-sided tower while dogding and attacking enemies. His weapon can switch between a hammer and a propeller, helping him attack as well as jump and climb. The weapon is controlled purely by joysticks, creating a gameplay experience without button pressing.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -26,16 +26,7 @@
       <pubDate>Tue, 05 Dec 2017 00:00:00 +0000</pubDate>
       
       <guid>http://yujinz.me/posts/project-starts/</guid>
-      <description>&lt;p&gt;An optimization of STARTS (STAtic Regression Test Selection) Maven plugin, which helps running only the impacted tests since last build. Reduced the time required to perform dependency analysis phase by 70% by running it concurrently with the test execution phase.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Tower of Babylon</title>
-      <link>http://yujinz.me/posts/project-tower-of-babylon/</link>
-      <pubDate>Thu, 23 Mar 2017 00:00:00 +0000</pubDate>
-      
-      <guid>http://yujinz.me/posts/project-tower-of-babylon/</guid>
-      <description>&lt;p&gt;A 3D platform game where the hero climbs a four-sided tower while dogding and attacking enemies. His weapon can switch between a hammer and a propeller, helping him attack as well as jump and climb. The weapon is controlled purely by rotating a joystick of the Xbox controller, creating a gameplay experience without button pressing.&lt;/p&gt;</description>
+      <description>&lt;p&gt;STARTS (STAtic Regression Test Selection) is a Maven plugin that helps you run only the impacted tests since last build. I worked on speeding up the dependency analysis phase (by 70%) by making it concurrent with the test execution phase.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -48,12 +39,21 @@
     </item>
     
     <item>
+      <title>Rope Chat</title>
+      <link>http://yujinz.me/posts/project-rope-chat/</link>
+      <pubDate>Mon, 14 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://yujinz.me/posts/project-rope-chat/</guid>
+      <description>&lt;p&gt;A chat website with threaded messaging UI designed by myself. This is a project for me to learn React. Punted since I do not plan to go deeper into the frontend world for now.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
       <title>Skin Care Recommander</title>
       <link>http://yujinz.me/posts/project-skin-care-recommander/</link>
       <pubDate>Fri, 11 May 2018 00:00:00 +0000</pubDate>
       
       <guid>http://yujinz.me/posts/project-skin-care-recommander/</guid>
-      <description>&lt;p&gt;A search engine back-end for recommanding skin care products on Amazon according to different effects and product types. It&amp;rsquo;s currently a little bit complicate to use. I plan to simplify the usage and hopefully deploy it, so that you could easily try it out.&lt;/p&gt;</description>
+      <description>&lt;p&gt;A search engine backend for recommanding skin care products on Amazon according to effects (e.g anti-age) and product types. We implemented a ranking algorithm that boost products with high-star reviews mentioning the effects in the query.&lt;/p&gt;</description>
     </item>
     
   </channel>

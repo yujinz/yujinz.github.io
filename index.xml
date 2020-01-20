@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Yujin Zhang</title>
@@ -6,7 +6,7 @@
     <description>Recent content on Yujin Zhang</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 14 May 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 01 Jan 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="http://yujinz.me/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,38 +14,13 @@
     <item>
       <title>Hello :)</title>
       <link>http://yujinz.me/posts/self-introduction/</link>
-      <pubDate>Sat, 05 May 2018 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
       
       <guid>http://yujinz.me/posts/self-introduction/</guid>
-      <description>&lt;p&gt;My name is Yujin Zhang (pronounced You-jean Jaang). I&amp;rsquo;m a backend software engineer in San Francisco. I went to University of Illinois at Urbana-Champaign, University of Michigan Ann Arbor, and Shanghai Jiao Tong University.&lt;/p&gt;
-
-&lt;p&gt;&lt;br&gt;&lt;/p&gt;
-
-&lt;p&gt;I like going to parks, biking to work, organizing spaces, reading fictions, and playing &lt;a href=&#34;https://www.nintendo.com/games/detail/ring-fit-adventure-switch/&#34;&gt;Ring Fit Adventure&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;&lt;br&gt;&lt;/p&gt;
-
-&lt;p&gt;For projects below, click titles to read more. Click thumbnails or the &amp;ldquo;Go to website&amp;rdquo; to jump to github repos.&lt;/p&gt;
-
-&lt;h3 id=&#34;a-name-projects-a&#34;&gt;&lt;a name=&#34;projects&#34;&gt;&lt;/a&gt;&lt;/h3&gt;</description>
-    </item>
-    
-    <item>
-      <title>Rope Chat</title>
-      <link>http://yujinz.me/posts/project-rope-chat/</link>
-      <pubDate>Mon, 14 May 2018 00:00:00 +0000</pubDate>
-      
-      <guid>http://yujinz.me/posts/project-rope-chat/</guid>
-      <description>&lt;p&gt;A chat website with threaded messaging feature designed by myself. Working in progress.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>STARTS Offline Mode</title>
-      <link>http://yujinz.me/posts/project-starts/</link>
-      <pubDate>Tue, 05 Dec 2017 00:00:00 +0000</pubDate>
-      
-      <guid>http://yujinz.me/posts/project-starts/</guid>
-      <description>&lt;p&gt;An optimization of STARTS (STAtic Regression Test Selection) Maven plugin, which helps running only the impacted tests since last build. Reduced the time required to perform dependency analysis phase by 70% by running it concurrently with the test execution phase.&lt;/p&gt;</description>
+      <description>&lt;p&gt;My name is Yujin Zhang (pronounced You-jean Jaang). I&#39;m a backend software engineer in San Francisco. I went to University of Illinois at Urbana-Champaign, University of Michigan Ann Arbor, and Shanghai Jiao Tong University.
+I like going to parks, biking to work, organizing spaces, reading fictions, and playing &lt;a href=&#34;https://www.nintendo.com/games/detail/ring-fit-adventure-switch/&#34;&gt;Ring Fit Adventure&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;For projects below, click titles to read more. Click thumbnails or the &amp;ldquo;Go to website&amp;rdquo; to jump to github repos.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -54,7 +29,16 @@
       <pubDate>Thu, 23 Mar 2017 00:00:00 +0000</pubDate>
       
       <guid>http://yujinz.me/posts/project-tower-of-babylon/</guid>
-      <description>&lt;p&gt;A 3D platform game where the hero climbs a four-sided tower while dogding and attacking enemies. His weapon can switch between a hammer and a propeller, helping him attack as well as jump and climb. The weapon is controlled purely by rotating a joystick of the Xbox controller, creating a gameplay experience without button pressing.&lt;/p&gt;</description>
+      <description>&lt;p&gt;A 3D platform game where the hero climbs a four-sided tower while dogding and attacking enemies. His weapon can switch between a hammer and a propeller, helping him attack as well as jump and climb. The weapon is controlled purely by joysticks, creating a gameplay experience without button pressing.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>STARTS Offline Mode</title>
+      <link>http://yujinz.me/posts/project-starts/</link>
+      <pubDate>Tue, 05 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://yujinz.me/posts/project-starts/</guid>
+      <description>&lt;p&gt;STARTS (STAtic Regression Test Selection) is a Maven plugin that helps you run only the impacted tests since last build. I worked on speeding up the dependency analysis phase (by 70%) by making it concurrent with the test execution phase.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -67,12 +51,21 @@
     </item>
     
     <item>
+      <title>Rope Chat</title>
+      <link>http://yujinz.me/posts/project-rope-chat/</link>
+      <pubDate>Mon, 14 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://yujinz.me/posts/project-rope-chat/</guid>
+      <description>&lt;p&gt;A chat website with threaded messaging UI designed by myself. This is a project for me to learn React. Punted since I do not plan to go deeper into the frontend world for now.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
       <title>Skin Care Recommander</title>
       <link>http://yujinz.me/posts/project-skin-care-recommander/</link>
       <pubDate>Fri, 11 May 2018 00:00:00 +0000</pubDate>
       
       <guid>http://yujinz.me/posts/project-skin-care-recommander/</guid>
-      <description>&lt;p&gt;A search engine back-end for recommanding skin care products on Amazon according to different effects and product types. It&amp;rsquo;s currently a little bit complicate to use. I plan to simplify the usage and hopefully deploy it, so that you could easily try it out.&lt;/p&gt;</description>
+      <description>&lt;p&gt;A search engine backend for recommanding skin care products on Amazon according to effects (e.g anti-age) and product types. We implemented a ranking algorithm that boost products with high-star reviews mentioning the effects in the query.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -81,7 +74,7 @@
       <pubDate>Tue, 04 Apr 2017 00:00:00 +0000</pubDate>
       
       <guid>http://yujinz.me/posts/publication/</guid>
-      <description>&lt;p&gt;S.W. Lee, &lt;strong&gt;Y. Zhang&lt;/strong&gt;, I. Wong, Y. Yang, S.D. O&amp;rsquo;Keefe, W.S. Lasecki. &lt;a href=&#34;http://web.eecs.umich.edu/~wlasecki/pubs/SketchExpress_UIST2017.pdf&#34;&gt;SketchExpress: Remixing Animations for More Effective Crowd-Powered Prototyping of Interactive Interfaces&lt;/a&gt;. In Proceedings of the ACM Symposium on User Interface Software and Technology (UIST 2017). Quebec City, Canada&lt;/p&gt;</description>
+      <description>&lt;p&gt;S.W. Lee, &lt;strong&gt;Y. Zhang&lt;/strong&gt;, I. Wong, Y. Yang, S.D. O&#39;Keefe, W.S. Lasecki. &lt;a href=&#34;http://web.eecs.umich.edu/~wlasecki/pubs/SketchExpress_UIST2017.pdf&#34;&gt;SketchExpress: Remixing Animations for More Effective Crowd-Powered Prototyping of Interactive Interfaces&lt;/a&gt;. In Proceedings of the ACM Symposium on User Interface Software and Technology (UIST 2017). Quebec City, Canada&lt;/p&gt;</description>
     </item>
     
   </channel>
