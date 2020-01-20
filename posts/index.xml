@@ -6,7 +6,7 @@
     <description>Recent content in Posts on Yujin Zhang</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 01 Jan 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 19 Jan 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="http://yujinz.me/posts/index.xml" rel="self" type="application/rss+xml" />
     
@@ -47,13 +47,13 @@ I like going to parks, biking to work, organizing spaces, reading fictions, and 
       <pubDate>Sat, 05 May 2018 00:00:00 +0000</pubDate>
       
       <guid>http://yujinz.me/posts/project-face-stylizer/</guid>
-      <description>&lt;p&gt;A face stylizer that puts an artistic mask generated from a portrait painting on the face in a photo. It detects facial keypoints in both the painting and the photo, warps the painting onto the photo according to the keypoints, and blends them with different weights on different areas.&lt;/p&gt;</description>
+      <description>&lt;p&gt;A face stylizer that puts an artistic mask generated from a portrait painting on the face in a photo. It detects facial keypoints, warps the painting onto the photo according to the keypoints, and blends them with different weights on different areas.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Rope Chat</title>
       <link>http://yujinz.me/posts/project-rope-chat/</link>
-      <pubDate>Mon, 14 May 2018 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 04 Feb 2018 00:00:00 +0000</pubDate>
       
       <guid>http://yujinz.me/posts/project-rope-chat/</guid>
       <description>&lt;p&gt;A chat website with threaded messaging UI designed by myself. This is a project for me to learn React. Punted since I do not plan to go deeper into the frontend world for now.&lt;/p&gt;</description>
@@ -65,7 +65,7 @@ I like going to parks, biking to work, organizing spaces, reading fictions, and 
       <pubDate>Fri, 11 May 2018 00:00:00 +0000</pubDate>
       
       <guid>http://yujinz.me/posts/project-skin-care-recommander/</guid>
-      <description>&lt;p&gt;A search engine backend for recommanding skin care products on Amazon according to effects (e.g anti-age) and product types. We implemented a ranking algorithm that boost products with high-star reviews mentioning the effects in the query.&lt;/p&gt;</description>
+      <description>&lt;p&gt;A search engine backend for recommanding skin care products on Amazon according to effects (e.g. anti-aging) and product types. We implemented a ranking algorithm that boost products with high-star reviews mentioning the effects in the query.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -74,7 +74,16 @@ I like going to parks, biking to work, organizing spaces, reading fictions, and 
       <pubDate>Tue, 04 Apr 2017 00:00:00 +0000</pubDate>
       
       <guid>http://yujinz.me/posts/publication/</guid>
-      <description>&lt;p&gt;S.W. Lee, &lt;strong&gt;Y. Zhang&lt;/strong&gt;, I. Wong, Y. Yang, S.D. O&#39;Keefe, W.S. Lasecki. &lt;a href=&#34;http://web.eecs.umich.edu/~wlasecki/pubs/SketchExpress_UIST2017.pdf&#34;&gt;SketchExpress: Remixing Animations for More Effective Crowd-Powered Prototyping of Interactive Interfaces&lt;/a&gt;. In Proceedings of the ACM Symposium on User Interface Software and Technology (UIST 2017). Quebec City, Canada&lt;/p&gt;</description>
+      <description>&lt;p&gt;S.W. Lee, &lt;strong&gt;Y. Zhang&lt;/strong&gt;, I. Wong, Y. Yang, S.D. O&#39;Keefe, W.S. Lasecki. &lt;a href=&#34;http://web.eecs.umich.edu/~wlasecki/pubs/SketchExpress_UIST2017.pdf&#34;&gt;SketchExpress: Remixing Animations for More Effective Crowd-Powered Prototyping of Interactive Interfaces&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>My Ikebana Works</title>
+      <link>http://yujinz.me/posts/post-ikebana/</link>
+      <pubDate>Sun, 19 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://yujinz.me/posts/post-ikebana/</guid>
+      <description>&lt;p&gt;I took the &lt;a href=&#34;https://www.facebook.com/JapanHouseUofI/photos/artd299-ikebana-hana-kokorofinal-student-arrangements/10156947298304015/&#34;&gt;Ikebana course&lt;/a&gt; at UIUC in Fall 2018. Here are some of my works and thoughts.&lt;/p&gt;</description>
     </item>
     
   </channel>
