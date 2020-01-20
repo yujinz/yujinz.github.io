@@ -9,7 +9,7 @@ thumbnailImagePosition: left
 thumbnailImage: https://lh3.googleusercontent.com/d/1czIvnAaIXjvKJiOm_KrrSAyKr9AMQvsy=s220?authuser=0
 ---
 
-A face stylizer that puts an artistic mask generated from a portrait painting on the face in a photo. It detects facial keypoints in both the painting and the photo, warps the painting onto the photo according to the keypoints, and blends them with different weights on different areas.  
+A face stylizer that puts an artistic mask generated from a portrait painting on the face in a photo. It detects facial keypoints, warps the painting onto the photo according to the keypoints, and blends them with different weights on different areas.
 <!--more-->
 
 ![face-stylizer sample output](https://lh3.googleusercontent.com/d/1czIvnAaIXjvKJiOm_KrrSAyKr9AMQvsy=s220?authuser=0)

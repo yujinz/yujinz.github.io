@@ -1,12 +1,12 @@
 ---
 title: "Rope Chat"
-date: 2018-05-14
+date: 2018-02-04
 link: https://github.com/yujinz/rope-chat
 weight: 62
 categories:
 - projects
 thumbnailImagePosition: left
-thumbnailImage: https://upload.wikimedia.org/wikipedia/en/thumb/5/59/Under_construction_svg.svg/1024px-Under_construction_svg.svg.png
+thumbnailImage: https://lh3.googleusercontent.com/d/12u9OioKwiA8881ejJORcXqvLvTThBvgm=s220?authuser=0
 ---
 
 A chat website with threaded messaging UI designed by myself. This is a project for me to learn React. Punted since I do not plan to go deeper into the frontend world for now.  

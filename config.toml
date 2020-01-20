@@ -4,7 +4,7 @@ defaultContentLanguage = "en-us"
 title = "Yujin Zhang"
 theme = "hugo-tranquilpeak-theme"
 disqusShortname = "hugo-tranquilpeak-theme"
-paginate = 7
+paginate = 10
 canonifyurls = true
 
 
@@ -86,7 +86,7 @@ canonifyurls = true
 [params]
   coverImage = "images/cover.jpg"
   clearReading = false
-  sidebarBehavior = 1
+  sidebarBehavior = 2
   imageGallery = true
   hierarchicalCategories = true
   description = "Yujin Zhang"
