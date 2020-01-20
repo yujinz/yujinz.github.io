@@ -18,7 +18,7 @@
       
       <guid>http://yujinz.me/posts/self-introduction/</guid>
       <description>&lt;p&gt;My name is Yujin Zhang (pronounced You-jean Jaang). I&#39;m a backend software engineer in San Francisco. I graduated from University of Illinois at Urbana-Champaign (M.S.), University of Michigan Ann Arbor (B.S.), and Shanghai Jiao Tong University (B.S.).
-I enjoy going to parks, biking to work, organizing spaces, reading fictions, and playing &lt;a href=&#34;https://www.nintendo.com/games/detail/ring-fit-adventure-switch/&#34;&gt;Ring Fit Adventure&lt;/a&gt;.&lt;/p&gt;
+I enjoy going to parks, biking to work, organizing spaces, reading fictions, and playing Nintendo Ring Fit Adventure.&lt;/p&gt;
 &lt;p&gt; &lt;/p&gt;
 &lt;p&gt;For projects below, click thumbnails or &amp;ldquo;Go to website&amp;rdquo; to jump to github repos. Click titles to read more.&lt;/p&gt;</description>
     </item>
@@ -56,7 +56,7 @@ I enjoy going to parks, biking to work, organizing spaces, reading fictions, and
       <pubDate>Sun, 04 Feb 2018 00:00:00 +0000</pubDate>
       
       <guid>http://yujinz.me/posts/project-rope-chat/</guid>
-      <description>&lt;p&gt;A chat website with threaded messaging UI designed by myself. This is a project for me to learn React. Punted since I do not plan to go deeper into the frontend world for now.&lt;/p&gt;</description>
+      <description>&lt;p&gt;A chat website with threaded messaging UI designed by myself. This is a project for me to learn React. Paused as I do not plan to go deeper into the frontend world for now.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -65,7 +65,7 @@ I enjoy going to parks, biking to work, organizing spaces, reading fictions, and
       <pubDate>Fri, 11 May 2018 00:00:00 +0000</pubDate>
       
       <guid>http://yujinz.me/posts/project-skin-care-recommander/</guid>
-      <description>&lt;p&gt;A search engine backend for recommanding skin care products on Amazon according to effects (e.g. anti-aging) and product types. We implemented a ranking algorithm that boost products with high-star reviews mentioning the effects in the query.&lt;/p&gt;</description>
+      <description>&lt;p&gt;A search engine backend for recommanding skin care products on Amazon according to effects (e.g. anti-aging) and product types. Boost products with high-star reviews mentioning the effects in the query.&lt;/p&gt;</description>
     </item>
     
     <item>
