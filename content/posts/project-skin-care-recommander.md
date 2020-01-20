@@ -9,7 +9,7 @@ thumbnailImagePosition: left
 thumbnailImage: https://lh3.googleusercontent.com/d/1WjMbqfZBNtVciC4na5_vc1qFR2TOmJw_=s220?authuser=0
 ---
 
-A search engine backend for recommanding skin care products on Amazon according to effects (e.g. anti-aging) and product types. We implemented a ranking algorithm that boost products with high-star reviews mentioning the effects in the query.
+A search engine backend for recommanding skin care products on Amazon according to effects (e.g. anti-aging) and product types. Boost products with high-star reviews mentioning the effects in the query.
 <!--more-->
 
 ![example usage](https://lh5.googleusercontent.com/iL4b1YoNXlWQiNEeQyHrCzFkBSJx_XDJbXN7-qemCpV5NUF-HgnZon2WYipZJQs8ELq_iPh9wEhDBMypBhHwSzmS4DpKPDoTbbswdekRHqFX-HYyiRhnBRY43Am5gDYQfjf9Sf38)
