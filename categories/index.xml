@@ -2,39 +2,39 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Yujin Zhang</title>
-    <link>http://yujinz.me/categories/</link>
+    <link>https://yujinz.me/categories/</link>
     <description>Recent content in Categories on Yujin Zhang</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 19 Jan 2020 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="http://yujinz.me/categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://yujinz.me/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>posts</title>
-      <link>http://yujinz.me/categories/posts/</link>
+      <link>https://yujinz.me/categories/posts/</link>
       <pubDate>Sun, 19 Jan 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://yujinz.me/categories/posts/</guid>
+      <guid>https://yujinz.me/categories/posts/</guid>
       <description></description>
     </item>
     
     <item>
       <title>projects</title>
-      <link>http://yujinz.me/categories/projects/</link>
+      <link>https://yujinz.me/categories/projects/</link>
       <pubDate>Fri, 11 May 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://yujinz.me/categories/projects/</guid>
+      <guid>https://yujinz.me/categories/projects/</guid>
       <description></description>
     </item>
     
     <item>
       <title>publications</title>
-      <link>http://yujinz.me/categories/publications/</link>
+      <link>https://yujinz.me/categories/publications/</link>
       <pubDate>Tue, 04 Apr 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://yujinz.me/categories/publications/</guid>
+      <guid>https://yujinz.me/categories/publications/</guid>
       <description></description>
     </item>
     
