@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>posts on Yujin Zhang</title>
-    <link>http://yujinz.me/categories/posts/</link>
+    <link>https://yujinz.me/categories/posts/</link>
     <description>Recent content in posts on Yujin Zhang</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 19 Jan 2020 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="http://yujinz.me/categories/posts/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://yujinz.me/categories/posts/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>My Ikebana Works</title>
-      <link>http://yujinz.me/posts/post-ikebana/</link>
+      <link>https://yujinz.me/posts/post-ikebana/</link>
       <pubDate>Sun, 19 Jan 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://yujinz.me/posts/post-ikebana/</guid>
+      <guid>https://yujinz.me/posts/post-ikebana/</guid>
       <description></description>
     </item>
     

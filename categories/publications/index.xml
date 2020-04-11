@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>publications on Yujin Zhang</title>
-    <link>http://yujinz.me/categories/publications/</link>
+    <link>https://yujinz.me/categories/publications/</link>
     <description>Recent content in publications on Yujin Zhang</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 04 Apr 2017 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="http://yujinz.me/categories/publications/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://yujinz.me/categories/publications/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Publication</title>
-      <link>http://yujinz.me/posts/publication/</link>
+      <link>https://yujinz.me/posts/publication/</link>
       <pubDate>Tue, 04 Apr 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://yujinz.me/posts/publication/</guid>
+      <guid>https://yujinz.me/posts/publication/</guid>
       <description>&lt;p&gt;S.W. Lee, &lt;strong&gt;Y. Zhang&lt;/strong&gt;, I. Wong, Y. Yang, S.D. O&#39;Keefe, W.S. Lasecki. &lt;a href=&#34;http://web.eecs.umich.edu/~wlasecki/pubs/SketchExpress_UIST2017.pdf&#34;&gt;SketchExpress: Remixing Animations for More Effective Crowd-Powered Prototyping of Interactive Interfaces&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     
