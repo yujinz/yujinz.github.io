@@ -2,87 +2,87 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Yujin Zhang</title>
-    <link>http://yujinz.me/</link>
+    <link>https://yujinz.me/</link>
     <description>Recent content on Yujin Zhang</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 19 Jan 2020 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="http://yujinz.me/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://yujinz.me/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Hello :)</title>
-      <link>http://yujinz.me/posts/self-introduction/</link>
+      <link>https://yujinz.me/posts/self-introduction/</link>
       <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://yujinz.me/posts/self-introduction/</guid>
-      <description>&lt;p&gt;My name is Yujin Zhang (pronounced You-jean Jaang). I&#39;m a backend software engineer in San Francisco. I graduated from University of Illinois at Urbana-Champaign (M.S.), University of Michigan Ann Arbor (B.S.), and Shanghai Jiao Tong University (B.S.).
-I enjoy going to parks, biking to work, organizing spaces, reading fictions, and playing Nintendo Ring Fit Adventure.&lt;/p&gt;
-&lt;p&gt; &lt;/p&gt;
+      <guid>https://yujinz.me/posts/self-introduction/</guid>
+      <description>&lt;p&gt;My name is Yujin Zhang (pronounced You-jean Jaang). I&#39;m a backend software engineer in San Francisco. I graduated from University of Illinois at Urbana-Champaign (M.S. in CS), University of Michigan Ann Arbor (B.S. in CS), and Shanghai Jiao Tong University (B.S. in ECE).
+I enjoy going to parks, commuting by bike and Caltrain, organizing spaces, reading fictions, and playing Nintendo Switch.
+ &lt;/p&gt;
 &lt;p&gt;For projects below, click thumbnails or &amp;ldquo;Go to website&amp;rdquo; to jump to github repos. Click titles to read more.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Tower of Babylon</title>
-      <link>http://yujinz.me/posts/project-tower-of-babylon/</link>
+      <link>https://yujinz.me/posts/project-tower-of-babylon/</link>
       <pubDate>Thu, 23 Mar 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://yujinz.me/posts/project-tower-of-babylon/</guid>
+      <guid>https://yujinz.me/posts/project-tower-of-babylon/</guid>
       <description>&lt;p&gt;A 3D platform game where the hero climbs a four-sided tower while dogding and attacking enemies. His weapon can switch between a hammer and a propeller, helping him attack as well as jump and climb. The weapon is controlled purely by joysticks, creating a gameplay experience without button pressing.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>STARTS Offline Mode</title>
-      <link>http://yujinz.me/posts/project-starts/</link>
+      <link>https://yujinz.me/posts/project-starts/</link>
       <pubDate>Tue, 05 Dec 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://yujinz.me/posts/project-starts/</guid>
+      <guid>https://yujinz.me/posts/project-starts/</guid>
       <description>&lt;p&gt;STARTS (STAtic Regression Test Selection) is a Maven plugin that helps you run only the impacted tests since last build. I worked on speeding up the dependency analysis phase (by 70%) by making it concurrent with the test execution phase.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Artistic Face Stylizer</title>
-      <link>http://yujinz.me/posts/project-face-stylizer/</link>
+      <link>https://yujinz.me/posts/project-face-stylizer/</link>
       <pubDate>Sat, 05 May 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://yujinz.me/posts/project-face-stylizer/</guid>
+      <guid>https://yujinz.me/posts/project-face-stylizer/</guid>
       <description>&lt;p&gt;A face stylizer that puts an artistic mask generated from a portrait painting on the face in a photo. It detects facial keypoints, warps the painting onto the photo according to the keypoints, and blends them with different weights on different areas.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Rope Chat</title>
-      <link>http://yujinz.me/posts/project-rope-chat/</link>
+      <link>https://yujinz.me/posts/project-rope-chat/</link>
       <pubDate>Sun, 04 Feb 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://yujinz.me/posts/project-rope-chat/</guid>
+      <guid>https://yujinz.me/posts/project-rope-chat/</guid>
       <description>&lt;p&gt;A chat website with threaded messaging UI designed by myself. This is a project for me to learn React. On pause until I have time to play with React again.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Skin Care Recommander</title>
-      <link>http://yujinz.me/posts/project-skin-care-recommander/</link>
+      <link>https://yujinz.me/posts/project-skin-care-recommander/</link>
       <pubDate>Fri, 11 May 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://yujinz.me/posts/project-skin-care-recommander/</guid>
+      <guid>https://yujinz.me/posts/project-skin-care-recommander/</guid>
       <description>&lt;p&gt;A search engine backend for recommanding skin care products on Amazon according to effects (e.g. anti-aging) and product types. Boost products with high-star reviews mentioning the effects in the query.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Publication</title>
-      <link>http://yujinz.me/posts/publication/</link>
+      <link>https://yujinz.me/posts/publication/</link>
       <pubDate>Tue, 04 Apr 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://yujinz.me/posts/publication/</guid>
+      <guid>https://yujinz.me/posts/publication/</guid>
       <description>&lt;p&gt;S.W. Lee, &lt;strong&gt;Y. Zhang&lt;/strong&gt;, I. Wong, Y. Yang, S.D. O&#39;Keefe, W.S. Lasecki. &lt;a href=&#34;http://web.eecs.umich.edu/~wlasecki/pubs/SketchExpress_UIST2017.pdf&#34;&gt;SketchExpress: Remixing Animations for More Effective Crowd-Powered Prototyping of Interactive Interfaces&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>My Ikebana Works</title>
-      <link>http://yujinz.me/posts/post-ikebana/</link>
+      <link>https://yujinz.me/posts/post-ikebana/</link>
       <pubDate>Sun, 19 Jan 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://yujinz.me/posts/post-ikebana/</guid>
+      <guid>https://yujinz.me/posts/post-ikebana/</guid>
       <description></description>
     </item>
     
