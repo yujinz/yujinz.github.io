@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects on Yujin Zhang</title>
+    <link>https://yujinz.me/projects/</link>
+    <description>Recent content in Projects on Yujin Zhang</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 31 Jul 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://yujinz.me/projects/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Tower of Babylon</title>
+      <link>https://yujinz.me/projects/tower-of-babylon/</link>
+      <pubDate>Thu, 23 Mar 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://yujinz.me/projects/tower-of-babylon/</guid>
+      <description>A 3D platform game where the hero climbs a four-sided tower while dogding and attacking enemies. The hero can switch their weapon between a hammer and a propeller.</description>
+    </item>
+    
+    <item>
+      <title>Artistic Face Stylizer</title>
+      <link>https://yujinz.me/projects/face-stylizer/</link>
+      <pubDate>Sat, 05 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://yujinz.me/projects/face-stylizer/</guid>
+      <description>A face stylizer that generates artistic mask from portrait painting and puts it onto another portrait photo.</description>
+    </item>
+    
+    <item>
+      <title>STARTS Offline Mode</title>
+      <link>https://yujinz.me/projects/starts/</link>
+      <pubDate>Tue, 05 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://yujinz.me/projects/starts/</guid>
+      <description>Contributed to STAtic Regression Test Selection Maven plugin by making the dependency analysis phase run in parallel with the test execution phase.</description>
+    </item>
+    
+    <item>
+      <title>Rope Chat</title>
+      <link>https://yujinz.me/projects/rope-chat/</link>
+      <pubDate>Sun, 04 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://yujinz.me/projects/rope-chat/</guid>
+      <description>A chat website with threaded messaging UI designed by myself. This was a project for me to learn React.</description>
+    </item>
+    
+    <item>
+      <title>Skin Care Recommander</title>
+      <link>https://yujinz.me/projects/skin-care-rec/</link>
+      <pubDate>Fri, 11 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://yujinz.me/projects/skin-care-rec/</guid>
+      <description>A search engine backend for skin care products on Amazon according to product effects (e.g. anti-aging) and types. Boost products with high-star reviews mentioning the effects in the search query.</description>
+    </item>
+    
+  </channel>
+</rss>

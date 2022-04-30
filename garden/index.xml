@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blogs on Yujin Zhang</title>
+    <link>https://yujinz.me/garden/</link>
+    <description>Recent content in Blogs on Yujin Zhang</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 31 Jul 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://yujinz.me/garden/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>My Ikebana Works</title>
+      <link>https://yujinz.me/garden/ikebana/</link>
+      <pubDate>Sun, 19 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://yujinz.me/garden/ikebana/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
