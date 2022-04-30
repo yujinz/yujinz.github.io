@@ -29,5 +29,5 @@ echo "Merging to master"
 git checkout master
 git merge -X theirs gh-pages
 
-#echo "Pushing to github"
-#git push --all
+echo "Pushing to github"
+git push --all
