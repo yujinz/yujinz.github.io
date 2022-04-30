@@ -2,4 +2,4 @@
 
 ### Reference:
 
-Theme: [Tranquilpeak](https://github.com/kakawait/hugo-tranquilpeak-theme/blob/master/docs/user.md)
+Theme: [Digital Garden](https://github.com/paulmartins/hugo-digital-garden-theme)
