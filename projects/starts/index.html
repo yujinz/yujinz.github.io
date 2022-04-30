@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;600;700;800&family=Frank+Ruhl+Libre:wght@200;300;400;500;600&family=Encode+Sans+Semi+Condensed:wght@400&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" type="text/css" href="https://yujinz.me/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="https://yujinz.me/css/all.min.css">
+    <link disabled id="dark-mode-theme" rel="stylesheet" href="https://yujinz.me/css/dark.css">
+    <link rel="stylesheet" type="text/css" href="https://yujinz.me/css/style.css">
+    <link rel="stylesheet" type="text/css" href="https://yujinz.me/css/my_style.css">
+    
+    
+    
+    <title>Yujin Zhang | STARTS Offline Mode</title>
+    <meta name="description" content="Contributed to STAtic Regression Test Selection Maven plugin by making the dependency analysis phase run in parallel with the test execution phase.">
+</head><body><nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+        <a class="navbar-brand" href="https://yujinz.me/">
+            
+            <b style="font-weight: 800;">Pronounced You-jean Jaang</b>
+            
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav ms-auto mt-2 mt-lg-0"><li class='nav-item '>
+                    <a class="nav-link" href="https://yujinz.me/"> Home</a>
+                </li>
+            <li class='nav-item '>
+                    <a class="nav-link" href="https://yujinz.me/garden/"> Blogs</a>
+                </li>
+            <li class='nav-item '>
+                    <a class="nav-link" href="https://yujinz.me/projects/"> Projects</a>
+                </li>
+            <li class='nav-item '>
+                    <a class="nav-link" href="https://yujinz.me/about/"> About</a>
+                </li>
+             
+            <li class="nav-item px-2 pt-1">
+                <a class="btn fas fa-moon" id="dark-mode-toggle"></a>
+            </li>
+            </ul>
+        </div>
+    </div>
+</nav><div id="content">
+
+<div class="container" style="max-width: 800px;">
+    <div class="py-4 rounded-3">
+        <div class="container-fluid py-2">
+            <h1 class="display-2 mb-4 text-center">STARTS Offline Mode</h1>
+        </div>
+        
+        <p class="text-center fs-4 fst-italic serif">Contributed to STAtic Regression Test Selection Maven plugin by making the dependency analysis phase run in parallel with the test execution phase.</p>
+        
+        <div class="text-center pt-4">
+            
+            
+            <a href="https://github.com/yujinz/starts" role="button" class="btn btn-sm btn-link mx-2" target="_blank">
+                <i class="fab alt brands fa-github fs-5"></i>
+            github link
+            </a>
+            
+            
+        </div>
+    </div>
+    <div class="row justify-content-center mb-5">
+        <div class="col-12">
+            <p class="card-date m-0">
+                
+                
+                    Created Dec 5, 2017 - 
+                
+                Last updated: Dec 5, 2017
+            </p>
+            <hr class="dropdown-divider">
+            <div class="row justify-content-between">
+                <div class="col-sm-4">
+                    
+                </div>
+                <div class="col-sm-8" style="text-align: right;">
+                    
+                
+                
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid py-2">
+        <div class="serif main-content">
+            <p><img src="https://lh3.googleusercontent.com/iPvJCKC6MGpAsM4-O0_2yNIxUcHnhVYI4GiHrGacqCBn5kmrq4dNX_J0x6Vbti_gZSFfJ5h93lkpd4pQCe2QoqSNwQ-RB1gMQvT9WJWE947uS-s-o2vKeglHOWmA83pri0_H_go58VmOfaDPrjwza7rQDK11hhnvwK8W98qzSgWVc9WiTpLCg89ewvBkUrqId3-JPUD72C2axzg6esouq2wj07WbsPpfKjSY0oN0NvlZuJohwobnyPvNx_9tJjv-iph9xJ8lfoqhMlf3XnIOL4RW-CGzLHiRRjcRr8cJveAjw9UFrXX0S1wCu7vyqMs0Q4bG8odBr3YefcHd5MSJVch4oaL3ckiWVhBhEgZfMLjc_6dRXhOEsluXrKzfDm5eODTQVfOqonDAl0_g5R2AHZtawHBv2X_HjAedCVouD2gcWpoJOQBpjCiMISkwIKpl-VJMkSy2dINUUWQU47jiuimvkUSCWiZHnyTSBYqEEEMKpxSVvC4zjD6xEJTdHLhiFhf2ny8_k7l5x1vm5xz2I2vbA4kZNdMedHOYA5hN2gmZTsVfewWoDQ3sqW7soQ93LCySvOGaEDAGwuHHpTEETK4-mIyK6aLLff-It0A=w740-h309-no" alt="starts offline workflow"></p>
+<p>STARTS (STAtic Regression Test Selection) is a Maven plugin to run only the impacted tests since last build. I implemented the idea of offline mode from <a href="http://mir.cs.illinois.edu/legunsen/pubs/LegunsenETALSTARTSDemo.pdf">this paper at ASE 2017</a> and speeded up the phase by 70%.</p>
+<p>This was a semester-long project of <a href="https://wiki.illinois.edu/wiki/display/cs527fa17">CS 527 Advanced Topics in Software Engineering</a> at UIUC.</p>
+
+        </div>
+    </div>
+</div>
+
+
+        </div><div class="container">
+    <div class="row justify-content-between">
+        <div class="col-sm-4">
+            <p class="footer"> 2022 </p>
+        </div>
+        <div class="col-sm-6 d-flex flex-row-reverse">
+            
+            <a class="footer-social px-2" href="https://github.com/yujinz/" target="_blank"><i class="fab fa-github"></i></a>
+            
+            <a class="footer-social px-2" href="https://www.linkedin.com/in/yujinz/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+            
+        </div>
+    </div>
+</div><script src="https://yujinz.me/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="https://yujinz.me/js/jquery.min.js"></script>
+<script src="https://yujinz.me/js/isotope.pkgd.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js" integrity="sha384-GNFwBvfVxBkLMJpYMOABq3c+d3KnQxudP/mGPkzpZSTYykLBNsZEnG2D9G/X/+7D" crossorigin="anonymous" async></script>
+<script src="https://yujinz.me/js/dark.js"></script>
+<script src="https://yujinz.me/js/isotope.js"></script>
+<script src="https://yujinz.me/js/mermaid.min.js"></script>
+<script>mermaid.initialize({ startOnLoad: true, securityLevel: 'loose'});</script></body>
+</html>
