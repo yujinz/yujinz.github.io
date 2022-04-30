@@ -18,4 +18,4 @@ The hero can use hammer to attack enemies and use propeller to climb up platform
 
 [Gameplay Video](https://www.youtube.com/watch?v=ej4pOaGyOsw)
 
-[![Tower of Babylon screenshot](https://lh4.googleusercontent.com/m-q5_01DvixmbWyE7GSVpMAJ8-J4V7dk61hH0Pn281ud2mwp3uqi8PVXXq9zEhMiQm895rgxHj1_Tg=w1282-h1289)](https://www.youtube.com/watch?v=ej4pOaGyOsw)
+[![Tower of Babylon screenshot](https://lh3.googleusercontent.com/d/1C1pufHq-FxF-WN5dlz29UZH8m3T51SQb)](https://www.youtube.com/watch?v=ej4pOaGyOsw)
