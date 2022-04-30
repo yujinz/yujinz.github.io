@@ -10,7 +10,7 @@ canonifyurls = true
 [params]
   name = "Yujin Zhang"
   description = "Hi :) I'm a backend software engineer in San Francisco Bay Area. I enjoy going to parks, commuting by bike and Caltrain, organizing my home, reading fictions, watching animations, and playing Nintendo Switch."
-  initials = "Pronounced You-jean Jaang"
+  initials = "Pronounced yoo-JEEN jaang"
   googleAnalytics = ""
 
   [[params.social]]
