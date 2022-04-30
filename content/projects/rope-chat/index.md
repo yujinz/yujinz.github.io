@@ -13,4 +13,4 @@ links:
 
 I came up with the design in April 2017 as a proposal to Rocket Chat in Google Summer of Code. It didn't get adopted so I decide to implement a prototype by myself in January 2018.
 
-![rope-chat-design](https://lh6.googleusercontent.com/k6tFQldTJmeVzBCnlW9C7cHVSSh5FRgzxbxiHPOrryxXvTwMzlTGt1Qrg0R0ALFG_C7V5S_1U4MRvg=w750-h750-rw)
+![rope-chat-design](https://lh3.googleusercontent.com/d/1BtHBbqRIUIwpIQEB3WlPgTbAXLOcVflF)
