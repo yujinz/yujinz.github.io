@@ -6,7 +6,7 @@
     <description>Recent content on Yujin Zhang</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 31 Jul 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://yujinz.me/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 30 Apr 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://yujinz.me/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Tower of Babylon</title>
       <link>https://yujinz.me/projects/tower-of-babylon/</link>
@@ -50,6 +50,15 @@
       
       <guid>https://yujinz.me/projects/skin-care-rec/</guid>
       <description>A search engine backend for skin care products on Amazon according to product effects (e.g. anti-aging) and types. Boost products with high-star reviews mentioning the effects in the search query.</description>
+    </item>
+    
+    <item>
+      <title>Trip to Santa Cruz [Chinese]</title>
+      <link>https://yujinz.me/garden/santa-cruz/</link>
+      <pubDate>Sat, 30 Apr 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://yujinz.me/garden/santa-cruz/</guid>
+      <description>santa cruz三日游，湾区一个人没有车也可以说走就走的可爱海边小城</description>
     </item>
     
     <item>
