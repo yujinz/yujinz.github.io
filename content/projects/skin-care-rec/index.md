@@ -2,6 +2,7 @@
 title: "Skin Care Recommander"
 date: 2018-05-11
 weight: 65
+draft: true
 summary: "A search engine backend for skin care products on Amazon according to product effects (e.g. anti-aging) and types. Boost products with high-star reviews mentioning the effects in the search query."
 links:
     another_link:
