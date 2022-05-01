@@ -67,7 +67,7 @@ Boardwalk附近有挺多inn的，离各个景点也很近。有车的话或许�
 
 <img src="https://lh3.googleusercontent.com/d/1U0K6CxTxFtbG9sXo8G9HLpvB8ZaPHirk" width="600">
 
-### UCSU Arboretum
+### UCSC Arboretum
 在Natural Bridges附近，不大，也有一点wild，工作人员只专心种花不负责接待，买票请自觉投币或扫码。澳洲植物区还是让我大开眼界的。有卖植物的nursery下午两点关门。
 <img src="https://lh3.googleusercontent.com/d/1YLj_OkcyGg3UIAOT3Fi3LJFqFBs8Pkvt" width="600">
 
