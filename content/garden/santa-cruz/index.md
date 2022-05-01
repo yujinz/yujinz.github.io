@@ -34,9 +34,9 @@ Boardwalk附近有挺多inn的，离各个景点也很近。有车的话或许�
 
 有一个意外的感触是感受到了鲸的主观意志。在船上大部分时间是离鲸很远的，能比这个更近的看到鲸是因为鲸自己想游过来看看我们（谢谢鲸鲸QAQ），如果它不想被我们看见，远远潜下去几分钟我们就找不到了。后来去看船员留的instagram，最近还遇到了在船旁边玩了半小时的鲸鲸。
 
-我平时比较有意识地想保护这样可爱的自然，不过这次在Santa Cruz感受到的生机也让我意识到，自然并不是完全被人类操控的（不论是保护还是破坏），它有自己的力量和弹性。在船上海滩上甚至在街上遇到的动物看起来都好开心啊，海浪也又磅礴又温柔，总之感受到了自然的强大美丽，虽然环保还要照做甚至想要做更多，但是心态上不像原来那样担心它随时会破碎了。
+这次在Santa Cruz感受到的生机也让我意识到，自然并不是完全被人类操控的（不论是保护还是破坏），它有自己的力量和弹性。在船上海滩上甚至在街上遇到的动物看起来都好开心啊，海浪也又磅礴又温柔，总之感受到了自然的强大美丽，虽然环保还要照做甚至想要做更多，但是心态上不像原来那样担心它随时会破碎了。
 
-可能像这样的小规模的和自然的互动，能帮我们重新感受自然的运行方式，去爱更真实的自然。我research whale watching的好处发现有一个是。。。增加人们对鲸鱼保护的awareness，哈哈好的，我立刻搜索相关组织然后给[WDC](https://us.whales.org/)打钱。当然whale watching多少会打扰鲸的生活，只能通过遵守规则尽量减轻影响（[Monteray Bay的规定](https://montereybay.noaa.gov/visitor/whalewatching/)），比如离鲸有一段距离的时候就关掉引擎等等，船上也会有一位naturalist记录动物的情况。我要承认我去whale watching确实给它们的生活带来了一些负面影响，我只能通过其他方式给它们比这更多的正面帮助。但是这个经历对我自己来说真的很珍贵，让我可以继续作为一个更好的人存在于世界上，在心里产生强烈的想为鲸类做点什么的意愿，所以再选一次我也会去看的。
+可能像这样的小规模的和自然的互动，能帮我们重新感受自然的运行方式，去爱更真实的自然。我调查whale watching的好处发现有一个是。。。增加人们对鲸鱼保护的awareness，哈哈好的，我立刻搜索相关组织然后给[WDC](https://us.whales.org/)打钱。当然whale watching多少会打扰鲸的生活，只能通过遵守规则尽量减轻影响（[Monteray Bay的规定](https://montereybay.noaa.gov/visitor/whalewatching/)），比如离鲸有一段距离的时候就关掉引擎等等，船上也会有一位naturalist记录动物的情况。我要承认我去whale watching确实给它们的生活带来了一些负面影响，我只能通过其他方式给它们比这更多的正面帮助。但是这个经历对我自己来说真的很珍贵，让我可以继续作为一个更好的人存在于世界上，在心里产生强烈的想为鲸类做点什么的意愿，所以再选一次我也会去看的。
 
 [<img src="https://lh3.googleusercontent.com/d/10cdnPPjFFjZmRM8bhiu2oqvoF8l9L13e" width="600">](https://www.youtube.com/watch?v=uiMPbOZflW0)
 
@@ -55,7 +55,7 @@ Boardwalk附近有挺多inn的，离各个景点也很近。有车的话或许�
 主要是吃饭，从Boardwalk走路20分钟。吃了两家西亚菜都很不错，午饭推荐[Arslans Turkish Street Food](https://www.yelp.com/biz/arslans-turkish-street-food-santa-cruz)，晚饭推荐[Laili Restaurant](https://www.yelp.com/biz/laili-restaurant-santa-cruz)。还有零食小店比如[Far West Fungi](https://www.yelp.com/biz/far-west-fungi-santa-cruz)和[Mariposa Cuban Coffee](https://www.yelp.com/biz/mariposa-cuban-coffee-santa-cruz-2)，超市电影院饰品小店之类的也都有，晚上能在街上听到一些餐馆里乐队的表演。
 
 ### Roaring Camp - Forest Steam Train
-乘坐一百多岁的蒸汽火车（速度好慢哦），在红木林里体验“之”字形铁路上下山。旁边还有一个看树的redwood grove loop trail（在alltrails下离线地图有解说词，第一次发现这个功能）。
+乘坐一百多岁的蒸汽火车（速度好慢哦），在红木林里体验“之”字形铁路上下山。旁边还有一个看树的redwood grove loop trail（在AllTrails下载离线地图有解说词，第一次发现这个功能）。
 <img src="https://lh3.googleusercontent.com/d/1pC7hjII2ah809ihio1baxgp_P5KEJ5_F" width="600">
 
 ##### ［不开车指南］
@@ -68,10 +68,14 @@ Boardwalk附近有挺多inn的，离各个景点也很近。有车的话或许�
 <img src="https://lh3.googleusercontent.com/d/1U0K6CxTxFtbG9sXo8G9HLpvB8ZaPHirk" width="600">
 
 ### UCSU Arboretum
-在natural bridges附近，不大，也有一点wild，工作人员只专心种花不负责接待，买票请自觉投币或扫码。澳洲植物区还是让我大开眼界的。有卖植物的nursery两点关门。
+在Natural Bridges附近，不大，也有一点wild，工作人员只专心种花不负责接待，买票请自觉投币或扫码。澳洲植物区还是让我大开眼界的。有卖植物的nursery下午两点关门。
 <img src="https://lh3.googleusercontent.com/d/1YLj_OkcyGg3UIAOT3Fi3LJFqFBs8Pkvt" width="600">
 
 ## 这次没去也许下次会去的
 Mount Hermon Adventures
+
+Loch Lomond Recreation Area
+
+Four Mile Beach
 
 Mystery Spot
